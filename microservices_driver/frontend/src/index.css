@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", "PingFang SC", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  background-color: #faf8ff;
+  color: #191b24;
+  min-height: 100dvh;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.active-tab {
+  color: #0051df;
+  border-bottom: 2px solid #0051df;
+}
+
+.signature-pad {
+  background-image: radial-gradient(#c3c5d8 0.5px, transparent 0.5px);
+  background-size: 20px 20px;
+}
+
+.safe-top { padding-top: 47px; }
+.safe-bottom { padding-bottom: 83px; }
